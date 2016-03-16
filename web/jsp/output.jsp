@@ -12,6 +12,7 @@
     String gender=request.getParameter("gender");
     String tel1=request.getParameter("tel1");
     String tel2=request.getParameter("tel2");
+    String[] hobby=request.getParameterValues("hobby");
 %>
 <html>
 <head>
@@ -22,6 +23,18 @@
     이름 : <%=name%><br>
     성구분 : <%=gender%><br>
     연락처 : <%=tel1%>) <%=tel2%><br>
+    재미있는 것 : <br>
+        <ul>
+            <%
+                if(hobby!=null){
+                    for(String str:hobby){
+                        %>
+                        <li><%=str%></li>
+            <%
+                    }
+                }
+            %>
+        </ul>
 </body>
 </html>
 
