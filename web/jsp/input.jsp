@@ -48,6 +48,16 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td width="25%">재미있는것</td>
+                    <td width="75%" align="left">
+                        <input type="checkbox" name="hobby" value="육체적 움직임">육체적 움직임
+                        <input type="checkbox" name="hobby" value="신간책 수집">신간책 수집
+                        <input type="checkbox" name="hobby" value="드라이브">드라이브
+                        <input type="checkbox" name="hobby" value="산에 가기">산에 가기
+                        <input type="checkbox" name="hobby" value="실제 책보기">실제 책보기
+                    </td>
+                </tr>
             </table>
         </form>
     </center>
