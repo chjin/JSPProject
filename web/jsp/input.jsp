@@ -58,8 +58,15 @@
                         <input type="checkbox" name="hobby" value="실제 책보기">실제 책보기
                     </td>
                 </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="선택 데이터 보내기" id="sendBtn">
+                    </td>
+                </tr>
             </table>
         </form>
+
     </center>
 </body>
 </html>
