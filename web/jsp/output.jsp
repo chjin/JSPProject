@@ -9,6 +9,7 @@
 <%
     request.setCharacterEncoding("EUC-KR");
     String name=request.getParameter("name");
+    String gender=request.getParameter("gender");
 %>
 <html>
 <head>
@@ -17,6 +18,7 @@
 <body>
     <h3>사용자 입력 정보 받아서 출력하기</h3>
     이름: <%=name%><br>
+    성구분: <%=gender%><br>
 </body>
 </html>
 
