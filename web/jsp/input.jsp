@@ -36,6 +36,17 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td width="25%">ฟฌถ๔รณ</td>
+                    <td width="75%" align="left">
+                        <select name="tel1">
+                            <option>010</option>
+                            <option>02</option>
+                            <option>031</option>
+                        </select>
+                        <input type="text" name="tel2" size="17">
+                    </td>
+                </tr>
 
             </table>
         </form>
