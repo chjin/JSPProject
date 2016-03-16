@@ -28,6 +28,15 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td width="25%">己备盒</td>
+                    <td width="75%" align="left">
+                        <input type="radio" name="gender" value="male" checked>巢己
+                        <input type="radio" name="gender" value="female">咯己
+                    </td>
+                </tr>
+
+
             </table>
         </form>
     </center>
