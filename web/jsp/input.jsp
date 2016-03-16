@@ -12,7 +12,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script>
         $(function(){
-
+            $('#sendBtn').click(function(){
+                var name=$('#name').val();
+                if(name.trim()==""){
+                    alert("성함을 입력하세요.");
+                    $('#name').focus();
+                    return;
+                }
+                $('#form').submit();
+            });
         });
     </script>
 </head>
